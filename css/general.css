@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ @-ms-viewport { width: device-width; scale: 1 }
+ @-o-viewport { width: device-width; scale: 1 }
+ @-webkit-viewport { width: device-width; scale: 1 }
+ @viewport { width: device-width; scale: 1 }
+ 
+html {
+	 -moz-text-size-adjust: 100%
+	 -ms-text-size-adjust: 100%
+	 -webkit-text-size-adjust: 100%
+	 text-size-adjust: 100%
+}
+
+header {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+}
+
+main {
+	top: 10rem;
+	position: relative;
+}
+
+em {
+	font-style:italic;
+}
+ 
+.logo {
+	 border-radius: 110px;
+	 margin: 0.5rem 2% 0;
+}
+ 
+.top {
+	 height: 6rem;
+	 background-color:#666;
+}
+ 
+h1 {
+	 margin-top: 0.5rem;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:18px;
+	 text-align: center;
+	 font-weight: bold;
+	 background-colour: #fff;
+	 padding: .5rem;
+}
+
+ul {
+    padding: .25rem;
+}
+
+li {
+	display: inline;
+	text-align: center;
+	margin: 0 9%;
+}
+
+nav {
+	background-color: #666;
+	margin: 0 auto;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+a:link {
+	color:#FFf;
+	text-decoration: none;
+}   
+a:visited {
+	color:#fff;
+	text-decoration: none;
+}
+ 
+a:hover {
+	color:#FFf;
+	text-decoration: none;
+}
+
+a:active {
+	color:#fff;
+	text-decoration: none;
+}
+
+
+.join {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 240px;
+	position: relative;
+}
+ 
+h2 {
+	 font-family: Arial, Helvetica, sans-serif;
+	 color: #FFF;
+	 padding: .5rem 2%;
+	 text-align: center;
+	 height: 3rem;
+	 position: absolute;
+	 max-width: 240px;
+	 z-index: 2;
+	 top: 250px;
+	 background-color: rgba(0, 0, 0, 0.4);
+	 
+}
+ 
+.banner {
+	 width: 240px;
+	 margin: 0 auto;
+	 position: relative;
+}
+
+.news {
+	background-color: #666;
+	border-radius: 5px;
+	padding: .5rem 2%;
+	height: 9rem;
+	width: 100%;
+}
+
+.newslist {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sched {
+	font-family:"Times New Roman", Times, serif;
+	font-size: .75rem;
+	padding: .25rem 0;
+}
+
+.footer {
+	background-color: #CCC;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.contact {
+	color: #333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	padding: .2rem 2%;
+	top: 10px;
+	text-align: center;
+}
+
+.schedule {
+	max-width: 500px;
+	margin-bottom: 4.5rem;
+}
+
+.prices {
+	max-width: 500px;
+}
+
+ 
